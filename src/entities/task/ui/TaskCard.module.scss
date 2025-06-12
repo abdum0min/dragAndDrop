@@ -1,0 +1,100 @@
+.card {
+  border-radius: 12px;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+}
+
+.date {
+  font-size: 12px;
+  color: #6D798E;
+}
+
+.description {
+  font-size: 14px;
+  color: #444;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reactions span {
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+.start{
+    width: 20%;
+}
+
+.middle{
+    width: 50%;
+}
+
+.end{
+    width: 100%;
+}
+
+.avatars {
+  display: flex;
+  gap: 4px;
+}
+
+.precentage{
+    height: 6px;
+    background: linear-gradient(90deg , rgba(240, 243, 189, 1) 0%,  rgba(2, 195, 154, 1) 100%);
+    border-radius: 3px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 1px solid #eee;
+}
+
+.red {
+  background-color: #ffe6e6;
+}
+
+.yellow {
+  background-color: #fff9e6;
+}
+
+.purple {
+  background-color: #f4e6ff;
+}
+
+.green {
+  background-color: #e6ffe6;
+}
+
+.gray {
+  background-color: #f5f5f5;
+}
