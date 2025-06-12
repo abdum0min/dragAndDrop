@@ -34,7 +34,6 @@ export default function HomePage({ tasks: initialTasks }: Props) {
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const rawTasks = await getTasks()
-  console.log(rawTasks)
   const tasks = rawTasks.map(mapTask)
   return { props: { tasks } }
 }
